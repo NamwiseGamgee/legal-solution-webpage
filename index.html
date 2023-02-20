@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justice</title>
+
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- vanila css -->
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/cc6ace2d9f.js" crossorigin="anonymous"></script>
+
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- custom tailwind -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        dark03: '#707070',
+                        primary_btn: '#B68C5A',
+                        dark06: '#e7e7e7',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+
+<body>
+    <header class="">
+        <!-- making the navbar -->
+        <div class="flex gap-32 justify-center my-14 items-center">
+            <div>
+                <img src="images/logo2.png" alt="">
+            </div>
+            <div class="flex gap-8 text-dark03 text-base font-normal">
+                <div>Home</div>
+                <div>Services <span><i class="fa-solid fa-angle-right"></i></span> </div>
+                <div>Cases <span><i class="fa-solid fa-angle-right"></i></span></div>
+                <div>Blogs <span><i class="fa-solid fa-angle-right"></i></span></div>
+                <div>Contact Us <span><i class="fa-solid fa-angle-right"></i></span></div>
+            </div>
+            <div>
+                <button class="text-xl font-semibold text-white px-7 py-4 bg-primary_btn rounded-lg">Free
+                    Consultation</button>
+
+            </div>
+        </div>
+
+        <!-- Banner -->
+        <div class="text-center bg-no-repeat bg-center " style="background-image: url('images/banner.png');">
+            <div>
+                <h1 class="text-7xl text-white font-extrabold mr-64 ml-60 pt-24 mb-6">We Provide Effective <br>Legal
+                    Solutions</h1>
+                <p class="text-dark06 mb-8">There are many different law farms in this world rn but very few of <br>them
+                    are as promising as us. We keep u safe.</p>
+            </div>
+            <div class="pb-28 flex justify-center gap-6">
+                <div>
+                    <input class="text-[#a0a0a0] text-xl py-5 pl-5 pr-72 rounded-lg" type="text" name="text" id="text"
+                        placeholder="Search your services">
+                </div>
+                <div>
+                    <button
+                        class="bg-primary_btn text-white py-5 px-10 font-semibold text-xl rounded-lg">Search</button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
