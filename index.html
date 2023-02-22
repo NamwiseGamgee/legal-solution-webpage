@@ -44,13 +44,13 @@
 
 
 <body>
-    <header class="">
+    <header class="sm:mx-3">
         <!-- making the navbar -->
-        <div class="flex gap-32 justify-center my-14 items-center">
-            <div>
+        <div class="md:flex gap-32 justify-center my-14 items-center">
+            <div class="mb-3 md:mb-0">
                 <img src="images/logo2.png" alt="">
             </div>
-            <div class="flex gap-8 text-dark03 text-base font-normal">
+            <div class="flex gap-5 mb-5 md:mb-0 md:gap-8 text-dark03 text-base font-normal">
                 <div>Home</div>
                 <div>Services <span><i class="fa-solid fa-angle-right"></i></span> </div>
                 <div>Cases <span><i class="fa-solid fa-angle-right"></i></span></div>
@@ -92,22 +92,19 @@
                             <!-- Modal body -->
                             <div class="p-6 space-y-6">
                                 <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                    Well, the thing is... First of all you should be ashamed of yourself for getting
-                                    baited. You shouldn't expect anything to be free in 2023..
+                                    I feel you bro but there ain't no free consultation.. This is just a meaningless
+                                    button. :(
                                 </p>
-                                <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-                                    Too bad nothing's free.. Sigh
-                                </p>
+
                             </div>
                             <!-- Modal footer -->
                             <div
                                 class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
                                 <button data-modal-hide="defaultModal" type="button"
                                     class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                                    Duh :/</button>
+                                    Duh</button>
                                 <button data-modal-hide="defaultModal" type="button"
-                                    class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">I'll
-                                    remember this</button>
+                                    class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">:/</button>
                             </div>
                         </div>
                     </div>
@@ -117,33 +114,38 @@
         </div>
 
         <!-- Banner -->
-        <div class="text-center bg-no-repeat bg-center mb-28" style="background-image: url('images/banner.png');">
-            <div>
-                <h1 class="text-7xl text-white font-extrabold mr-64 ml-60 pt-24 mb-6">We Provide Effective <br>Legal
-                    Solutions</h1>
-                <p class="text-dark06 mb-8">There are many different law farms in this world rn but very few of <br>them
-                    are as promising as us. We keep u safe.</p>
-            </div>
-            <div class="pb-28 flex justify-center gap-6">
-                <div>
-                    <input class="text-[#a0a0a0] text-xl py-5 pl-5 pr-72 rounded-lg" type="text" name="text" id="text"
-                        placeholder="Search your services">
-                </div>
-                <div>
+        <div class="container text-center bg-no-repeat bg-center mb-28 mx-auto">
+
+            <img class="mx-auto" src="images/banner.png" alt="">
+            <div class="">
+                <div class="lg:absolute mx-auto lg:-translate-y-full lg:translate-x-1/4 text-center pb-11">
+                    <h1 class="text-5xl lg:text-7xl lg:text-white font-extrabold lg:pr-64 lg:pl-60 pt-24 mb-6">We
+                        Provide<br> Effective Legal <br>
+                        Solutions</h1>
+                    <p class="text-black  lg:text-dark06 pb-8">There are many different law farms in this world rn <br>
+                        but very few of them are as promising as us. We keep u safe.</p>
+                    <input
+                        class="text-[#a0a0a0] text-xl py-5 pl-5 pr-3 md:pr-72 rounded-lg mb-5 md:mb-0 bg-slate-300 lg:bg-white"
+                        type="" name="" id="" placeholder="Search our services">
                     <button
                         class="bg-primary_btn text-white py-5 px-10 font-semibold text-xl rounded-lg">Search</button>
                 </div>
 
             </div>
+
+
         </div>
     </header>
     <main>
-        <section class="text-center items-center mb-32">
-            <h1 class="mb-6 text-4xl text-dark02 font-extrabold">The Legal Practice area</h1>
-            <p class="mb-16 text-dark03 font-normal text-base">These are the areas we practice our legal strengths in.
-                We hope to expand <br>it even further. However, please hire us, we need da money!</p>
-            <div class="grid grid-cols-3 text-center justify-center items-center w-3/5 mx-auto gap-0">
-                <div class="border-r border-b">
+        <section class="container text-center mx-auto lg:mb-32 ">
+            <div class="">
+                <h1 class="mb-6 text-4xl text-dark02 font-extrabold">The Legal Practice area</h1>
+                <p class="mb-16 text-dark03 font-normal text-base">These are the areas we practice our legal strengths
+                    in.
+                    We hope to expand <br>it even further. However, please hire us, we need da money!</p>
+            </div>
+            <div class="lg:grid grid-cols-3 text-center justify-center items-center w-3/5 mx-auto gap-0">
+                <div class="lg:border-r lg:border-b">
                     <img class="mx-auto pt-14" src="images/business.png" alt="business">
                     <h2 class="text-dark02 text-3xl font-extrabold pt-8 pb-6">Business Law</h1>
                         <p class="text-dark03">dude, people are starting business before <br> even getting connected
@@ -152,7 +154,7 @@
                         </p>
                         <img class="mx-auto pt-8 pb-16" src="images/Frame.png" alt="arrow">
                 </div>
-                <div class="border-r border-b">
+                <div class="lg:border-r lg:border-b">
                     <img class="mx-auto pt-14" src="images/criminal.png" alt="business">
                     <h2 class="text-dark02 text-3xl font-extrabold pt-8 pb-6">Criminal Law</h1>
                         <p class="text-dark03 ">dude, people are starting business before <br> even getting connected
@@ -161,7 +163,7 @@
                         </p>
                         <img class="mx-auto pt-8 pb-16" src="images/Frame.png" alt="arrow">
                 </div>
-                <div class="border-b">
+                <div class="lg:border-b">
                     <img class="mx-auto pt-14" src="images/child.png" alt="business">
                     <h2 class="text-dark02 text-3xl font-extrabold pt-8 pb-6">Child Support</h1>
                         <p class="text-dark03">dude, people are starting business before <br> even getting connected
@@ -170,7 +172,7 @@
                         </p>
                         <img class="mx-auto pt-8 pb-16" src="images/Frame.png" alt="arrow">
                 </div>
-                <div class="border-r ">
+                <div class="lg:border-r ">
                     <img class="mx-auto pt-14" src="images/education.png" alt="business">
                     <h2 class="text-dark02 text-3xl font-extrabold pt-8 pb-6">Education Law</h1>
                         <p class="text-dark03">dude, people are starting business before <br> even getting connected
@@ -179,7 +181,7 @@
                         </p>
                         <img class="mx-auto pt-8 pb-16" src="images/Frame.png" alt="arrow">
                 </div>
-                <div class="border-r">
+                <div class="lg:border-r">
                     <img class="mx-auto pt-14" src="images/divorce.png" alt="business">
                     <h2 class="text-dark02 text-3xl font-extrabold pt-8 pb-6">Divorce Law</h1>
                         <p class="text-dark03">dude, people are starting business before <br> even getting connected
@@ -212,44 +214,41 @@
                 <!-- Carousel wrapper -->
                 <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                     <!-- Item 1 -->
-                    <div class="hidden bg-slate-400 duration-700 ease-in-out" data-carousel-item>
-                        <div class="flex gap-3 justify-center items-center h-full">
+                    <div class="bg-slate-400 duration-700 ease-in-out" data-carousel-item>
+                        <div class="flex gap-3 justify-center items-center mx-auto ">
                             <div class="text-center pt-11 pl-3">
-                                <h1 class="pb-5 font-extrabold text-5xl text-dark03">Alisson Backer</h1>
-                                <p class="text-2xl font-base text-dark03">I was wrongly investigated for giving away own goals/assists against ReaL Madrid. Thanks to them, I got away with murder.</p>
+                                <h1 class="pb-5 font-extrabold lg:text-5xl text-dark03">Alisson Backer</h1>
+                                <p class="lg:text-2xl font-base text-dark03 ">I was investigated for giving away own
+                                    goals/assists against ReaL Madrid. Thanks to them, I got away with murder.</p>
                             </div>
-                            <div class="">
-                                <img src="images/slider-1.jpg"
-                                    class=" h-3/4 w-3/4 "
-                                    alt="...">
+                            <div class="invisible md:visible">
+                                <img src="images/slider-1.jpg" class=" h-3/4 w-3/4" alt="...">
                             </div>
                         </div>
                     </div>
                     <!-- Item 2 -->
                     <div class="hidden bg-slate-400 duration-700 ease-in-out" data-carousel-item>
-                        <div class="flex gap-3 justify-center items-center h-full">
+                        <div class="flex gap-3 justify-center items-center mx-auto ">
                             <div class="text-center pt-11 pl-3">
-                                <h1 class="pb-5 font-extrabold text-5xl text-dark03">Alisson Backer</h1>
-                                <p class="text-2xl font-base text-dark03">I was wrongly investigated for giving away own goals/assists against ReaL Madrid. Thanks to them, I got away with murder.</p>
+                                <h1 class="pb-5 font-extrabold lg:text-5xl text-dark03">Theo Backer</h1>
+                                <p class="lg:text-2xl font-base text-dark03 ">I was investigated for giving away own
+                                    goals/assists against ReaL Madrid. Thanks to them, I got away with murder.</p>
                             </div>
-                            <div class="">
-                                <img src="images/slider-2.jpg"
-                                    class=" h-3/4 w-3/4 "
-                                    alt="...">
+                            <div class="invisible md:visible">
+                                <img src="images/slider-2.jpg" class=" h-3/4 w-3/4" alt="...">
                             </div>
                         </div>
                     </div>
                     <!-- Item 3 -->
                     <div class="hidden bg-slate-400 duration-700 ease-in-out" data-carousel-item>
-                        <div class="flex gap-3 justify-center items-center h-full">
+                        <div class="flex gap-3 justify-center items-center mx-auto ">
                             <div class="text-center pt-11 pl-3">
-                                <h1 class="pb-5 font-extrabold text-5xl text-dark03">Mauro Icardi</h1>
-                                <p class="text-2xl font-base text-dark03">I fall in love with my friends gf but they help me legalize the process of stealing her. Now i'm living the happiest life. Thanks bud!</p>
+                                <h1 class="pb-5 font-extrabold lg:text-5xl text-dark03">Crist Backer</h1>
+                                <p class="lg:text-2xl font-base text-dark03 ">I was investigated for giving away own
+                                    goals/assists against ReaL Madrid. Thanks to them, I got away with murder.</p>
                             </div>
-                            <div class="">
-                                <img src="images/slider_remake.jpg"
-                                    class="h-3/4 w-3/4"
-                                    alt="...">
+                            <div class="invisible md:visible">
+                                <img src="images/slider-3.jpg" class=" h-3/4 w-3/4" alt="...">
                             </div>
                         </div>
                     </div>
@@ -405,8 +404,8 @@
                 <h1 class="text-4xl text-dark02 font-extrabold mb-6">Contact With Us</h1>
                 <p class="text-dark03 mb-16">If you need to contact us, you can send an email, or call us or maybe head
                     over to our office.. Every details is given for your covenience..</p>
-                <div class="flex justify-center items-center gap-8">
-                    <div class="grid grid-cols-2 grid-rows-2">
+                <div class="lg:flex justify-center items-center gap-8">
+                    <div class="md:grid grid-cols-2 grid-rows-2">
                         <div class="text-center bg-[#f3f3f3] py-16 px-16 border-b border-r">
                             <img class="mx-auto pb-4" src="images/address.png" alt="">
                             <h2 class=" font-extrabold pb-4 text-dark02 text-2xl">Address</h2>
@@ -430,19 +429,19 @@
                             <p class="text-dark03">Mon-Fri <br> 9 AM to 6 PM</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="mt-5 lg:mt-0">
                         <!--making the forms  -->
-                        <input class="block mb-8 py-6 pl-6 rounded-lg bg-[#f3f3f3]" style="width: 570px;" type="text"
-                            name="" id="" placeholder="Your Name">
-                        <input class="block mb-8 py-6 pl-6 rounded-lg bg-[#f3f3f3]" style="width: 570px;" type="email"
-                            name="" id="" placeholder="Your Email">
-                        <input class="block mb-8 py-6 pl-6 rounded-lg bg-[#f3f3f3]" style="width: 570px;" type="text"
-                            name="" id="" placeholder="Subject">
-                        <textarea class="block mb-8 py-6 pl-6 rounded-lg bg-[#f3f3f3]" style="width: 570px;" name=""
-                            id="" cols="22" rows="7" placeholder="Your Message"></textarea>
+                        <input class="w-full block mb-8 py-6 pl-6 rounded-lg bg-[#f3f3f3]" type="text" name="" id=""
+                            placeholder="Your Name">
+                        <input class="w-full block mb-8 py-6 pl-6 rounded-lg bg-[#f3f3f3]" type="email" name="" id=""
+                            placeholder="Your Email">
+                        <input class="w-full block mb-8 py-6 pl-6 rounded-lg bg-[#f3f3f3]" type="text" name="" id=""
+                            placeholder="Subject">
+                        <textarea class="w-full block mb-8 py-6 pl-6 rounded-lg bg-[#f3f3f3]" name="" id="" cols="22"
+                            rows="7" placeholder="Your Message"></textarea>
                         <button
-                            class="block py-5 bg-primary_btn rounded-lg text-white font-semibold text-xl text-center"
-                            style="width: 570px;">Send Message</button>
+                            class="w-full block py-5 bg-primary_btn rounded-lg text-white font-semibold text-xl text-center">Send
+                            Message</button>
                     </div>
                 </div>
             </div>
@@ -451,7 +450,7 @@
     </main>
     <footer>
         <section class="bg-black pb-24">
-            <div class="w-3/5 mx-auto flex gap-20 pt-32">
+            <div class="w-3/5 mx-auto lg:flex gap-20 pt-32">
                 <div>
                     <img class="mb-12" src="images/logo.png" alt="">
                     <p class="text-[#cfcfcf]">There are many variations of passages of Lorem Ipsum available, but the
